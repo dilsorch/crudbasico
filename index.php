@@ -5,7 +5,7 @@ require_once 'MySqlConexao.php';
 require_once 'TabelaInterface.php';
 require_once 'Tabela.php';
 
-$conexao = new MySqlConexao('localhost', 'crud', 'crud', 'Fre_12#76');
+$conexao = new MySqlConexao('localhost', '', '', '');
 
 $agenda = new Tabela('curso', $conexao);
 
